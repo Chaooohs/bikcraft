@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap");
+
+@import "_mixins";
+
+html {
+  font-size: 10px;
+}
+body {
+  background: #b2b2b2;
+}
+a:hover {
+  color: #ffbb00;
+}
+
+$white: #fff;
+$yellow: #f6ad09;
+$gray: #b2b2b2;
+
+.title {
+  @include fontTitle;
+  @include dot;
+}
+.item {
+  @include fontItem;
+}
+
+.main {
+  max-width: 1600px;
+  margin: 0 auto;
+
+  .header {
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background: #000;
+    box-sizing: border-box;
+    padding: 3rem 14.19% 3.2rem 13.75%;
+
+    .logo {
+      font-family: "Poppins";
+      font-weight: 500;
+      font-size: 3.6rem;
+      line-height: 3.2rem;
+      color: #fff;
+    }
+    .nav {
+      justify-self: flex-end;
+    }
+    .nav__list {
+      font-family: "Poppins";
+      font-weight: 500;
+      font-size: 1.8rem;
+      line-height: 3.2rem;
+
+      display: flex;
+      column-gap: 2.4rem;
+    }
+    .nav__link {
+      color: #fff;
+      transition: all 0.2s linear;
+      &:hover {
+        color: #ffbb00;
+      }
+    }
+  }
+
+  .block-one {
+    position: relative;
+    box-sizing: border-box;
+    padding: 9.56% 0 6.63% 13.75%;
+
+    background: #000;
+    &::before {
+      content: "";
+      width: 40%;
+      position: absolute;
+      top: 0rem;
+      right: 9.72%;
+      background: url("../img/img1.png") 0 0 / 100% no-repeat;
+      padding-top: 50%;
+    }
+    &__left {
+      width: 37.75%;
+    }
+    .item {
+      margin-top: 3.2rem;
+    }
+    &__btn {
+      font-family: "Poppins";
+      font-weight: 600;
+      font-size: 1.8rem;
+      line-height: 2.4rem;
+      text-transform: uppercase;
+      color: #332200;
+
+      border: none;
+      outline: none;
+      background: $yellow;
+      border-radius: 5px;
+      box-sizing: border-box;
+      padding: 1.9rem 3.2rem 1.6rem 2.9rem;
+      margin-top: 3.2rem;
+    }
+  }
+
+  .block-two {
+    background: $white;
+    box-sizing: border-box;
+    padding: 9.6% 4.38% 12.81%;
+
+    .title {
+      @include titleBlack;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 4rem;
+
+      box-sizing: border-box;
+      padding-top: 2.75%;
+    }
+    .card {
+      &__title {
+        position: relative;
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 3.2rem;
+        line-height: 4rem;
+        color: #111111;
+
+        box-sizing: border-box;
+        padding-left: 3.1rem;
+        margin-top: 1.5rem;
+
+        &::before {
+          @include yellowRectangle;
+        }
+      }
+      &__item {
+        font-family: "Roboto";
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        color: #595959;
+
+        box-sizing: border-box;
+        padding-left: 3.1rem;
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  .block-three {
+    position: relative;
+    box-sizing: border-box;
+    padding: 5.06% 0 5.94% 13.19%;
+    background: #111111;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: -8.7rem;
+      right: 4.38%;
+      width: 43.75%;
+      padding-top: 70%;
+      background: url("../img/diferencial1.png") 0 0 no-repeat;
+    }
+
+    &__left {
+      width: 39%;
+
+      &-caption {
+        font-family: "Roboto";
+        font-weight: 500;
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+        letter-spacing: 0.015em;
+        text-transform: uppercase;
+        color: $gray;
+      }
+      .title {
+        max-width: 51.9rem;
+        margin-top: 1.9rem;
+      }
+      .item {
+        max-width: 53.7rem;
+        margin-top: 4.3rem;
+      }
+      &-choise {
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 2.4rem;
+        line-height: 3.6rem;
+        color: #ffbb00;
+        margin-top: 2.8rem;
+      }
+      .choise-models {
+        display: flex;
+        gap: 4.3rem;
+        margin-top: 6.9rem;
+
+        &__card {
+          max-width: 25.8rem;
+        }
+        &__title {
+          font-family: "Poppins";
+          font-weight: 500;
+          font-size: 2.4rem;
+          line-height: 3.6rem;
+          color: $white;
+        }
+        &__item {
+          font-family: "Roboto";
+          font-weight: 400;
+          font-size: 1.6rem;
+          line-height: 2.4rem;
+          color: $gray;
+          margin-top: 1.6rem;
+        }
+      }
+    }
+  }
+
+  .block-four {
+    background: $white;
+    box-sizing: border-box;
+    padding: 7.88% 4.38% 6.75%;
+
+    .title {
+      @include titleBlack;
+    }
+
+    &__block {
+      display: grid;
+      // grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fit, 34.9rem);
+      justify-content: space-evenly;
+      column-gap: 2.1rem;
+      row-gap: 1.3rem;
+
+      margin-top: 4.3rem;
+    }
+  }
+
+  .block-five {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 7.4rem;
+    align-items: flex-end;
+    background: #ffbb00;
+
+    &__right {
+      max-width: 51rem;
+      min-height: 37.7rem;
+      padding-bottom: 5.5%;
+      box-sizing: border-box;
+    }
+
+    &__text {
+      font-family: "Merriweather";
+      font-style: italic;
+      font-weight: 900;
+      font-size: 3.6rem;
+      line-height: 4.8rem;
+      color: #332200;
+    }
+
+    &__signature {
+      font-family: "Poppins";
+      font-weight: 600;
+      font-size: 2.4rem;
+      line-height: 3.2rem;
+      color: #664400;
+      margin-top: 1.7rem;
+    }
+  }
+
+  .block-six {
+    background: #161616;
+    box-sizing: border-box;
+    padding: 4.56% 1.88% 6.25%;
+
+    .title {
+      box-sizing: border-box;
+      padding-left: 13.06%;
+    }
+    &__cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 4.1rem;
+      align-items: center;
+      margin-top: 3.6rem;
+    }
+
+    &__left,
+    &__right {
+      justify-self: flex-end;
+      width: 45.6rem;
+      background: #000000;
+      border-radius: 7px;
+      box-sizing: border-box;
+      padding: 3.3rem 2.8rem 2.8rem 5.4rem;
+    }
+
+    &__right {
+      justify-self: flex-start;
+    }
+
+    &__card-title {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__card-title-left {
+      @include fontPrata;
+    }
+
+    .gold {
+      color: #ffbb00;
+    }
+
+    &__card-title-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      .price {
+        @include fontPrata;
+        color: $white;
+      }
+
+      .string {
+        @include fontPrata;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+      }
+    }
+
+    &__card-item {
+      position: relative;
+      font-family: "Roboto";
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      color: $white;
+      margin-top: 1.8rem;
+
+      &::before {
+        content: "";
+        position: absolute;
+        width: 1.5rem;
+        height: 0.5rem;
+        top: 0.9rem;
+        left: -2.2rem;
+        background: #ffbb00;
+      }
+    }
+
+    &__card-btn {
+      font-family: "Poppins";
+      font-weight: 600;
+      font-size: 1.8rem;
+      line-height: 2.4rem;
+      color: #cccccc;
+      text-transform: uppercase;
+
+      background: #2e2e2e;
+      border-radius: 5px;
+      box-sizing: border-box;
+      padding: 1.5rem 2.8rem;
+      margin-top: 4.1rem;
+    }
+  }
+
+  .footer {
+  }
+}
