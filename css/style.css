@@ -7,10 +7,6 @@ body {
   background: #b2b2b2;
 }
 
-a:hover {
-  color: #ffbb00;
-}
-
 .title {
   font-family: "Poppins";
   font-weight: 600;
@@ -240,7 +236,7 @@ a:hover {
 }
 .main .block-four__block {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 34.9rem);
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   justify-content: space-evenly;
   -moz-column-gap: 2.1rem;
        column-gap: 2.1rem;

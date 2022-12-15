@@ -8,9 +8,6 @@ html {
 body {
   background: #b2b2b2;
 }
-a:hover {
-  color: #ffbb00;
-}
 
 $white: #fff;
 $yellow: #f6ad09;
@@ -234,8 +231,8 @@ $gray: #b2b2b2;
 
     &__block {
       display: grid;
-      // grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      grid-template-columns: repeat(auto-fit, 34.9rem);
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      // grid-template-columns: repeat(auto-fit, 34.9rem);
       justify-content: space-evenly;
       column-gap: 2.1rem;
       row-gap: 1.3rem;
