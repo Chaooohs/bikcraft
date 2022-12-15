@@ -80,15 +80,19 @@ body {
   box-sizing: border-box;
   padding: 9.56% 0 6.63% 13.75%;
   background: #000;
+  /* &::before {
+    content: "";
+    width: 40%;
+    position: absolute;
+    top: 0rem;
+    right: 9.72%;
+    background: url("../img/img1.png") 0 0 / 100% no-repeat;
+    padding-top: 50%;
+  } */
 }
-.main .block-one::before {
-  content: "";
-  width: 40%;
-  position: absolute;
-  top: 0rem;
-  right: 9.72%;
-  background: url("../img/img1.png") 0 0/100% no-repeat;
-  padding-top: 50%;
+.main .block-one__image {
+  float: right;
+  max-width: 640px;
 }
 .main .block-one__left {
   width: 37.75%;
