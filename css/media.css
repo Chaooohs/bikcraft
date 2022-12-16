@@ -12,4 +12,27 @@
     text-align: center;
     padding: 0;
   }
+  .main .block-six {
+    padding: 4.56% 1.5rem 4.7%;
+  }
+  .main .block-six .title {
+    text-align: center;
+    padding: 0;
+  }
+  .main .block-six__cards {
+    grid-template-columns: 1fr;
+    row-gap: 5rem;
+  }
+  .main .block-six__left, .main .block-six__right {
+    justify-self: center;
+    margin: 0;
+  }
+}
+@media (max-width: 520px) {
+  .main .block-six__left, .main .block-six__right {
+    width: 100%;
+  }
+  .main .block-six__card-title {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=media.css.map */
