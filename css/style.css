@@ -42,6 +42,7 @@ body {
   margin: 0 auto;
 }
 .main .header {
+  container-type: inline-size;
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;

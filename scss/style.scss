@@ -26,6 +26,7 @@ $gray: #b2b2b2;
   margin: 0 auto;
 
   .header {
+    container-type: inline-size;
     position: relative;
 
     display: grid;
@@ -38,6 +39,7 @@ $gray: #b2b2b2;
     .logo {
       font-family: "Poppins";
       font-weight: 500;
+      // font-size: 3cqi;
       font-size: 3.6rem;
       line-height: 3.2rem;
       color: #fff;
