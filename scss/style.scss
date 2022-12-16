@@ -66,10 +66,10 @@ $gray: #b2b2b2;
   .block-one {
     position: relative;
     box-sizing: border-box;
-    padding: 9.56% 0 6.63% 13.75%;
+    padding: 0 8.75% 6.63% 13.75%;
 
     background: #000;
-    &::before {
+    /* &::before {
       content: "";
       width: 40%;
       position: absolute;
@@ -77,13 +77,28 @@ $gray: #b2b2b2;
       right: 9.72%;
       background: url("../img/img1.png") 0 0 / 100% no-repeat;
       padding-top: 50%;
+    } */
+
+    &__image {
+      float: right;
+      max-width: 51.5%;
+      margin-bottom: 5%;
+      margin-left: 5.75%;
     }
+
     &__left {
-      width: 37.75%;
+      // width: 37.75%;
+      padding-top: 15.7%;
     }
+
+    .title {
+      font-size: 6.3rem;
+    }
+
     .item {
       margin-top: 3.2rem;
     }
+
     &__btn {
       font-family: "Poppins";
       font-weight: 600;
@@ -105,10 +120,15 @@ $gray: #b2b2b2;
   .block-two {
     background: $white;
     box-sizing: border-box;
-    padding: 9.6% 4.38% 12.81%;
+    padding: 9% 4.38% 12.1%;
 
     .title {
       @include titleBlack;
+      padding-left: 10.2%;
+      span:after {
+        right: -8%;
+        width: 8%;
+      }
     }
     .cards {
       display: grid;
@@ -180,10 +200,16 @@ $gray: #b2b2b2;
       .title {
         max-width: 51.9rem;
         margin-top: 1.9rem;
+
+        span:after {
+          right: -3%;
+          bottom: 23%;
+          width: 2%;
+        }
       }
       .item {
         max-width: 53.7rem;
-        margin-top: 4.3rem;
+        margin-top: 3.8rem;
       }
       &-choise {
         font-family: "Poppins";
@@ -191,7 +217,7 @@ $gray: #b2b2b2;
         font-size: 2.4rem;
         line-height: 3.6rem;
         color: #ffbb00;
-        margin-top: 2.8rem;
+        margin-top: 2.6rem;
       }
       .choise-models {
         display: flex;
@@ -202,11 +228,20 @@ $gray: #b2b2b2;
           max-width: 25.8rem;
         }
         &__title {
+          position: relative;
           font-family: "Poppins";
           font-weight: 500;
           font-size: 2.4rem;
           line-height: 3.6rem;
           color: $white;
+
+          box-sizing: border-box;
+          padding-left: 2.9rem;
+
+          &::before {
+            @include yellowRectangle;
+            top: 1.1rem;
+          }
         }
         &__item {
           font-family: "Roboto";
@@ -223,10 +258,17 @@ $gray: #b2b2b2;
   .block-four {
     background: $white;
     box-sizing: border-box;
-    padding: 7.88% 4.38% 6.75%;
+    padding: 7.2% 4.38% 6.75%;
 
     .title {
       @include titleBlack;
+      padding-left: 9.5%;
+
+      span:after {
+        right: -4%;
+        bottom: 23%;
+        width: 3%;
+      }
     }
 
     &__block {
@@ -245,15 +287,21 @@ $gray: #b2b2b2;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    column-gap: 7.4rem;
+    // column-gap: 7.4rem;
     align-items: flex-end;
     background: #ffbb00;
+
+    img {
+      width: 97%;
+    }
 
     &__right {
       max-width: 51rem;
       min-height: 37.7rem;
+      padding-top: 1%;
       padding-bottom: 5.5%;
       box-sizing: border-box;
+      margin-left: 6.5%;
     }
 
     &__text {
@@ -271,23 +319,24 @@ $gray: #b2b2b2;
       font-size: 2.4rem;
       line-height: 3.2rem;
       color: #664400;
-      margin-top: 1.7rem;
+      margin-top: 1.2rem;
     }
   }
 
   .block-six {
     background: #161616;
     box-sizing: border-box;
-    padding: 4.56% 1.88% 6.25%;
+    padding: 4.56% 1.88% 4.7%;
 
     .title {
       box-sizing: border-box;
-      padding-left: 13.06%;
+      padding-left: 11.5%;
     }
+
     &__cards {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      column-gap: 4.1rem;
+      // column-gap: 4.1rem;
       align-items: center;
       margin-top: 3.6rem;
     }
@@ -299,7 +348,11 @@ $gray: #b2b2b2;
       background: #000000;
       border-radius: 7px;
       box-sizing: border-box;
-      padding: 3.3rem 2.8rem 2.8rem 5.4rem;
+      padding: 3.3rem 2.8rem 2.8rem 5.7rem;
+    }
+
+    &__left {
+      margin-right: 5%;
     }
 
     &__right {
@@ -343,7 +396,7 @@ $gray: #b2b2b2;
       font-size: 18px;
       line-height: 24px;
       color: $white;
-      margin-top: 1.8rem;
+      margin-top: 1.6rem;
 
       &::before {
         content: "";
@@ -368,7 +421,7 @@ $gray: #b2b2b2;
       border-radius: 5px;
       box-sizing: border-box;
       padding: 1.5rem 2.8rem;
-      margin-top: 4.1rem;
+      margin-top: 3.5rem;
     }
   }
 

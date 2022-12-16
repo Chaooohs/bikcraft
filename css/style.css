@@ -20,10 +20,10 @@ body {
 .title span::after {
   content: "";
   position: absolute;
-  right: -1.6rem;
-  bottom: 2.2rem;
-  width: 1.2rem;
-  height: 1.2rem;
+  right: -6%;
+  bottom: 25%;
+  width: 4%;
+  height: 10%;
   border-radius: 20px;
   background: #f6ad09;
 }
@@ -78,7 +78,7 @@ body {
 .main .block-one {
   position: relative;
   box-sizing: border-box;
-  padding: 9.56% 0 6.63% 13.75%;
+  padding: 0 8.75% 6.63% 13.75%;
   background: #000;
   /* &::before {
     content: "";
@@ -92,10 +92,15 @@ body {
 }
 .main .block-one__image {
   float: right;
-  max-width: 640px;
+  max-width: 51.5%;
+  margin-bottom: 5%;
+  margin-left: 5.75%;
 }
 .main .block-one__left {
-  width: 37.75%;
+  padding-top: 15.7%;
+}
+.main .block-one .title {
+  font-size: 6.3rem;
 }
 .main .block-one .item {
   margin-top: 3.2rem;
@@ -118,12 +123,17 @@ body {
 .main .block-two {
   background: #fff;
   box-sizing: border-box;
-  padding: 9.6% 4.38% 12.81%;
+  padding: 9% 4.38% 12.1%;
 }
 .main .block-two .title {
   box-sizing: border-box;
   padding-left: 12.81%;
   color: #111111;
+  padding-left: 10.2%;
+}
+.main .block-two .title span:after {
+  right: -8%;
+  width: 8%;
 }
 .main .block-two .cards {
   display: grid;
@@ -193,9 +203,14 @@ body {
   max-width: 51.9rem;
   margin-top: 1.9rem;
 }
+.main .block-three__left .title span:after {
+  right: -3%;
+  bottom: 23%;
+  width: 2%;
+}
 .main .block-three__left .item {
   max-width: 53.7rem;
-  margin-top: 4.3rem;
+  margin-top: 3.8rem;
 }
 .main .block-three__left-choise {
   font-family: "Poppins";
@@ -203,7 +218,7 @@ body {
   font-size: 2.4rem;
   line-height: 3.6rem;
   color: #ffbb00;
-  margin-top: 2.8rem;
+  margin-top: 2.6rem;
 }
 .main .block-three__left .choise-models {
   display: flex;
@@ -214,11 +229,24 @@ body {
   max-width: 25.8rem;
 }
 .main .block-three__left .choise-models__title {
+  position: relative;
   font-family: "Poppins";
   font-weight: 500;
   font-size: 2.4rem;
   line-height: 3.6rem;
   color: #fff;
+  box-sizing: border-box;
+  padding-left: 2.9rem;
+}
+.main .block-three__left .choise-models__title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1.5rem;
+  width: 2.2rem;
+  height: 1rem;
+  background: #f6ad09;
+  top: 1.1rem;
 }
 .main .block-three__left .choise-models__item {
   font-family: "Roboto";
@@ -231,12 +259,18 @@ body {
 .main .block-four {
   background: #fff;
   box-sizing: border-box;
-  padding: 7.88% 4.38% 6.75%;
+  padding: 7.2% 4.38% 6.75%;
 }
 .main .block-four .title {
   box-sizing: border-box;
   padding-left: 12.81%;
   color: #111111;
+  padding-left: 9.5%;
+}
+.main .block-four .title span:after {
+  right: -4%;
+  bottom: 23%;
+  width: 3%;
 }
 .main .block-four__block {
   display: grid;
@@ -251,16 +285,19 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  -moz-column-gap: 7.4rem;
-       column-gap: 7.4rem;
   align-items: flex-end;
   background: #ffbb00;
+}
+.main .block-five img {
+  width: 97%;
 }
 .main .block-five__right {
   max-width: 51rem;
   min-height: 37.7rem;
+  padding-top: 1%;
   padding-bottom: 5.5%;
   box-sizing: border-box;
+  margin-left: 6.5%;
 }
 .main .block-five__text {
   font-family: "Merriweather";
@@ -276,22 +313,20 @@ body {
   font-size: 2.4rem;
   line-height: 3.2rem;
   color: #664400;
-  margin-top: 1.7rem;
+  margin-top: 1.2rem;
 }
 .main .block-six {
   background: #161616;
   box-sizing: border-box;
-  padding: 4.56% 1.88% 6.25%;
+  padding: 4.56% 1.88% 4.7%;
 }
 .main .block-six .title {
   box-sizing: border-box;
-  padding-left: 13.06%;
+  padding-left: 11.5%;
 }
 .main .block-six__cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  -moz-column-gap: 4.1rem;
-       column-gap: 4.1rem;
   align-items: center;
   margin-top: 3.6rem;
 }
@@ -301,7 +336,10 @@ body {
   background: #000000;
   border-radius: 7px;
   box-sizing: border-box;
-  padding: 3.3rem 2.8rem 2.8rem 5.4rem;
+  padding: 3.3rem 2.8rem 2.8rem 5.7rem;
+}
+.main .block-six__left {
+  margin-right: 5%;
 }
 .main .block-six__right {
   justify-self: flex-start;
@@ -349,7 +387,7 @@ body {
   font-size: 18px;
   line-height: 24px;
   color: #fff;
-  margin-top: 1.8rem;
+  margin-top: 1.6rem;
 }
 .main .block-six__card-item::before {
   content: "";
@@ -371,5 +409,5 @@ body {
   border-radius: 5px;
   box-sizing: border-box;
   padding: 1.5rem 2.8rem;
-  margin-top: 4.1rem;
+  margin-top: 3.5rem;
 }/*# sourceMappingURL=style.css.map */
