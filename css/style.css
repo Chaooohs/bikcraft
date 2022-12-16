@@ -87,7 +87,11 @@ body {
   margin-left: 5.75%;
 }
 .main .block-one__left {
+  container-type: inline-size;
   padding-top: 15.7%;
+}
+.main .block-one .title {
+  font-size: 12cqi;
 }
 .main .block-one .item {
   margin-top: 3.2rem;

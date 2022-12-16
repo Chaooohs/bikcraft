@@ -78,10 +78,13 @@ $gray: #b2b2b2;
     }
 
     &__left {
-      // width: 37.75%;
+      container-type: inline-size;
       padding-top: 15.7%;
     }
 
+    .title {
+      font-size: 12cqi;
+    }
     .item {
       margin-top: 3.2rem;
     }
