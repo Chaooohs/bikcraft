@@ -2,18 +2,24 @@
   .main .title {
     font-size: 4.3rem;
   }
+  .main .header {
+    padding: 3rem 3rem 3.2rem;
+  }
+  .main .header .nav__list {
+    display: none;
+  }
   .main .block-one {
-    padding: 0 1.5rem 6.63% 1.5rem;
+    padding: 0 3rem 6.63%;
   }
   .main .block-two {
-    padding: 9% 1.5rem 12.1%;
+    padding: 9% 3rem 12.1%;
   }
   .main .block-two .title {
     text-align: center;
     padding: 0;
   }
   .main .block-six {
-    padding: 4.56% 1.5rem 4.7%;
+    padding: 4.56% 3rem 4.7%;
   }
   .main .block-six .title {
     text-align: center;

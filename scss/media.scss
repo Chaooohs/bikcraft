@@ -4,12 +4,18 @@
       font-size: 4.3rem;
     }
 
+    .header {
+      padding: 3rem 3rem 3.2rem;
+      .nav__list {
+        display: none;
+      }
+    }
     .block-one {
-      padding: 0 1.5rem 6.63% 1.5rem;
+      padding: 0 3rem 6.63%;
     }
 
     .block-two {
-      padding: 9% 1.5rem 12.1%;
+      padding: 9% 3rem 12.1%;
 
       .title {
         text-align: center;
@@ -18,7 +24,7 @@
     }
 
     .block-six {
-      padding: 4.56% 1.5rem 4.7%;
+      padding: 4.56% 3rem 4.7%;
 
       .title {
         text-align: center;
