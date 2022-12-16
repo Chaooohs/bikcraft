@@ -252,7 +252,7 @@ body {
 .main .block-four {
   background: #fff;
   box-sizing: border-box;
-  padding: 7.2% 4.38% 6.75%;
+  padding: 17.8rem 7rem 10.8rem;
 }
 .main .block-four .title {
   box-sizing: border-box;
@@ -267,7 +267,7 @@ body {
 }
 .main .block-four__block {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
   justify-content: space-evenly;
   -moz-column-gap: 2.1rem;
        column-gap: 2.1rem;

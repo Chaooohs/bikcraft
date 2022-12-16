@@ -1,26 +1,25 @@
 @media (max-width: 992px) {
+  .main .header,
+.main .block-one,
+.main .block-two,
+.main .block-four,
+.main .block-six {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
   .main .title {
     font-size: 4.3rem;
     line-height: 5.2rem;
   }
-  .main .header {
-    padding: 3rem 3rem 3.2rem;
-  }
   .main .header .nav__list {
     display: none;
-  }
-  .main .block-one {
-    padding: 0 3rem 6.63%;
-  }
-  .main .block-two {
-    padding: 9% 3rem 12.1%;
   }
   .main .block-two .title {
     text-align: center;
     padding: 0;
   }
-  .main .block-six {
-    padding: 4.56% 3rem 4.7%;
+  .main .block-four__block {
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   }
   .main .block-six .title {
     text-align: center;
@@ -38,7 +37,8 @@
 @media (max-width: 520px) {
   .main .header,
 .main .block-one,
-.main .block-two {
+.main .block-two,
+.main .block-four {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
   }
@@ -48,6 +48,9 @@
   }
   .main .block-one .title {
     font-size: 9cqi;
+  }
+  .main .block-four__block {
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
   }
   .main .block-five {
     grid-template-columns: 1fr;

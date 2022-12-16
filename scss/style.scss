@@ -252,7 +252,7 @@ $gray: #b2b2b2;
   .block-four {
     background: $white;
     box-sizing: border-box;
-    padding: 7.2% 4.38% 6.75%;
+    padding: 17.8rem 7rem 10.8rem;
 
     .title {
       @include titleBlack;
@@ -267,12 +267,10 @@ $gray: #b2b2b2;
 
     &__block {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      // grid-template-columns: repeat(auto-fit, 34.9rem);
+      grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
       justify-content: space-evenly;
       column-gap: 2.1rem;
       row-gap: 1.3rem;
-
       margin-top: 4.3rem;
     }
   }
