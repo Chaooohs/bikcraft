@@ -169,20 +169,19 @@ body {
 .main .block-three {
   position: relative;
   box-sizing: border-box;
-  padding: 5.06% 0 5.94% 13.19%;
+  padding: 0 7rem 9.5rem 12.9%;
   background: #111111;
 }
-.main .block-three::after {
-  content: "";
-  position: absolute;
-  top: -8.7rem;
-  right: 4.38%;
-  width: 43.75%;
-  padding-top: 70%;
-  background: url("../img/diferencial1.png") 0 0 no-repeat;
+.main .block-three__image {
+  float: right;
+  width: 53%;
+  margin-top: -6.5%;
+  margin-left: 6%;
 }
 .main .block-three__left {
-  width: 39%;
+  container-type: inline-size;
+  box-sizing: border-box;
+  padding-top: 8.1rem;
 }
 .main .block-three__left-caption {
   font-family: "Roboto";
@@ -194,7 +193,8 @@ body {
   color: #b2b2b2;
 }
 .main .block-three__left .title {
-  max-width: 51.9rem;
+  font-size: 12cqi;
+  line-height: 13cqi;
   margin-top: 1.9rem;
 }
 .main .block-three__left .title span:after {
@@ -202,11 +202,11 @@ body {
   bottom: 23%;
   width: 2%;
 }
-.main .block-three__left .item {
-  max-width: 53.7rem;
+.main .block-three .item {
   margin-top: 3.8rem;
 }
 .main .block-three__left-choise {
+  position: relative;
   font-family: "Poppins";
   font-weight: 600;
   font-size: 2.4rem;
@@ -214,15 +214,20 @@ body {
   color: #ffbb00;
   margin-top: 2.6rem;
 }
-.main .block-three__left .choise-models {
+.main .block-three__left-choise::after {
+  content: "";
+  position: absolute;
+  bottom: -20%;
+  left: 0%;
+  width: 25%;
+  border-bottom: 4px solid #ffbb00;
+}
+.main .block-three .choise-models {
   display: flex;
-  gap: 4.3rem;
+  gap: 2.3rem;
   margin-top: 6.9rem;
 }
-.main .block-three__left .choise-models__card {
-  max-width: 25.8rem;
-}
-.main .block-three__left .choise-models__title {
+.main .block-three .choise-models__title {
   position: relative;
   font-family: "Poppins";
   font-weight: 500;
@@ -232,7 +237,7 @@ body {
   box-sizing: border-box;
   padding-left: 2.9rem;
 }
-.main .block-three__left .choise-models__title::before {
+.main .block-three .choise-models__title::before {
   content: "";
   position: absolute;
   left: 0;
@@ -242,7 +247,7 @@ body {
   background: #f6ad09;
   top: 1.1rem;
 }
-.main .block-three__left .choise-models__item {
+.main .block-three .choise-models__item {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 1.6rem;

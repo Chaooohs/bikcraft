@@ -3,6 +3,7 @@
     .header,
     .block-one,
     .block-two,
+    .block-three,
     .block-four,
     .block-six {
       padding-right: 3rem;
@@ -17,7 +18,7 @@
         display: none;
       }
     }
-    
+
     .block-two {
       .title {
         text-align: center;
@@ -57,6 +58,7 @@
     .header,
     .block-one,
     .block-two,
+    .block-three,
     .block-four {
       padding-right: 1.5rem;
       padding-left: 1.5rem;
@@ -69,6 +71,15 @@
       }
       .title {
         font-size: 9cqi;
+      }
+    }
+    .block-three {
+      &__left {
+        clear: right;
+      }
+      
+      .choise-models {
+        flex-direction: column;
       }
     }
     .block-four {

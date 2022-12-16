@@ -2,6 +2,7 @@
   .main .header,
 .main .block-one,
 .main .block-two,
+.main .block-three,
 .main .block-four,
 .main .block-six {
     padding-right: 3rem;
@@ -38,6 +39,7 @@
   .main .header,
 .main .block-one,
 .main .block-two,
+.main .block-three,
 .main .block-four {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
@@ -48,6 +50,12 @@
   }
   .main .block-one .title {
     font-size: 9cqi;
+  }
+  .main .block-three__left {
+    clear: right;
+  }
+  .main .block-three .choise-models {
+    flex-direction: column;
   }
   .main .block-four__block {
     grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
