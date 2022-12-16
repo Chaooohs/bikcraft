@@ -19,9 +19,6 @@
     text-align: center;
     padding: 0;
   }
-  .main .block-five {
-    grid-template-columns: 1fr;
-  }
   .main .block-six {
     padding: 4.56% 3rem 4.7%;
   }
@@ -47,9 +44,13 @@
   }
   .main .block-one__left {
     container-type: normal;
+    clear: right;
   }
   .main .block-one .title {
     font-size: 9cqi;
+  }
+  .main .block-five {
+    grid-template-columns: 1fr;
   }
   .main .block-six__left, .main .block-six__right {
     width: 100%;

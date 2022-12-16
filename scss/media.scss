@@ -21,9 +21,6 @@
         padding: 0;
       }
     }
-    .block-five {
-      grid-template-columns: 1fr;
-    }
     .block-six {
       padding: 4.56% 3rem 4.7%;
 
@@ -61,10 +58,14 @@
     .block-one {
       &__left {
         container-type: normal;
+        clear: right;
       }
       .title {
         font-size: 9cqi;
       }
+    }
+    .block-five {
+      grid-template-columns: 1fr;
     }
     .block-six {
       &__left,
