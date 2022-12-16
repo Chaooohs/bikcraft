@@ -49,7 +49,7 @@ body {
   grid-template-columns: 1fr 1fr;
   background: #000;
   box-sizing: border-box;
-  padding: 3rem 14.19% 3.2rem 13.75%;
+  padding: 3rem 22.8rem 3rem 22rem;
 }
 .main .header .logo {
   font-family: "Poppins";
@@ -79,7 +79,7 @@ body {
 }
 .main .block-one {
   box-sizing: border-box;
-  padding: 0 8.75% 6.63% 13.75%;
+  padding: 0 14rem 10.6rem 22rem;
   background: #000;
 }
 .main .block-one__image {
@@ -123,7 +123,7 @@ body {
   box-sizing: border-box;
   padding-left: 12.81%;
   color: #111111;
-  padding-left: 10.2%;
+  padding-left: 14rem;
 }
 .main .block-two .title span:after {
   right: -8%;
@@ -140,8 +140,8 @@ body {
   position: relative;
   font-family: "Poppins";
   font-weight: 600;
-  font-size: 3.2rem;
-  line-height: 4rem;
+  font-size: 32px;
+  line-height: 40px;
   color: #111111;
   box-sizing: border-box;
   padding-left: 31px;
@@ -169,7 +169,7 @@ body {
 .main .block-three {
   position: relative;
   box-sizing: border-box;
-  padding: 0 7rem 9.5rem 12.9%;
+  padding: 0 7rem 9.5rem 21.1rem;
   background: #111111;
 }
 .main .block-three__image {
@@ -264,7 +264,7 @@ body {
   box-sizing: border-box;
   padding-left: 12.81%;
   color: #111111;
-  padding-left: 9.5%;
+  padding-left: 14rem;
 }
 .main .block-four .title span:after {
   right: -4%;
@@ -273,7 +273,7 @@ body {
 }
 .main .block-four__block {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   justify-content: space-evenly;
   -moz-column-gap: 2.1rem;
        column-gap: 2.1rem;
@@ -337,7 +337,7 @@ body {
 }
 .main .block-six .title {
   box-sizing: border-box;
-  padding-left: 11.5%;
+  padding-left: 21rem;
 }
 .main .block-six__cards {
   display: grid;

@@ -34,7 +34,7 @@ $gray: #b2b2b2;
 
     background: #000;
     box-sizing: border-box;
-    padding: 3rem 14.19% 3.2rem 13.75%;
+    padding: 3rem 22.8rem 3rem 22rem;
 
     .logo {
       font-family: "Poppins";
@@ -66,7 +66,7 @@ $gray: #b2b2b2;
 
   .block-one {
     box-sizing: border-box;
-    padding: 0 8.75% 6.63% 13.75%;
+    padding: 0 14rem 10.6rem 22rem;
 
     background: #000;
 
@@ -80,6 +80,7 @@ $gray: #b2b2b2;
     &__left {
       container-type: inline-size;
       padding-top: 15.7%;
+      // padding-top: 19.7rem;
     }
 
     .title {
@@ -115,7 +116,7 @@ $gray: #b2b2b2;
 
     .title {
       @include titleBlack;
-      padding-left: 10.2%;
+      padding-left: 14rem;
       span:after {
         right: -8%;
         width: 8%;
@@ -134,8 +135,8 @@ $gray: #b2b2b2;
         position: relative;
         font-family: "Poppins";
         font-weight: 600;
-        font-size: 3.2rem;
-        line-height: 4rem;
+        font-size: 32px;
+        line-height: 40px;
         color: #111111;
 
         box-sizing: border-box;
@@ -163,7 +164,7 @@ $gray: #b2b2b2;
   .block-three {
     position: relative;
     box-sizing: border-box;
-    padding: 0 7rem 9.5rem 12.9%;
+    padding: 0 7rem 9.5rem 21.1rem;
     background: #111111;
 
     &__image {
@@ -258,7 +259,7 @@ $gray: #b2b2b2;
 
     .title {
       @include titleBlack;
-      padding-left: 9.5%;
+      padding-left: 14rem;
 
       span:after {
         right: -4%;
@@ -269,7 +270,7 @@ $gray: #b2b2b2;
 
     &__block {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
       justify-content: space-evenly;
       column-gap: 2.1rem;
       row-gap: 1.3rem;
@@ -339,7 +340,7 @@ $gray: #b2b2b2;
 
     .title {
       box-sizing: border-box;
-      padding-left: 11.5%;
+      padding-left: 21rem;
     }
 
     &__cards {

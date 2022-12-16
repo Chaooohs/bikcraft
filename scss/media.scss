@@ -21,7 +21,6 @@
 
     .block-two {
       .title {
-        text-align: center;
         padding: 0;
       }
     }
@@ -31,8 +30,11 @@
       }
     }
     .block-four {
+      .title {
+        padding: 0;
+      }
       &__block {
-        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       }
     }
     .block-six {
@@ -70,6 +72,9 @@
 }
 
 @media (max-width: 520px) {
+  html {
+    font-size: 8px;
+  }
   .main {
     .header,
     .block-one,
@@ -88,10 +93,15 @@
       &__left {
         container-type: normal;
         clear: right;
+        padding-top: 3rem;
       }
       .title {
         font-size: 9cqi;
       }
+    }
+    .block-two {
+      padding-top: 12.6rem;
+      padding-bottom: 10.2rem;
     }
     .block-three {
       &__left {
@@ -103,8 +113,10 @@
       }
     }
     .block-four {
+      padding-top: 10.8rem;
+
       &__block {
-        grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
       }
     }
     .block-five {
