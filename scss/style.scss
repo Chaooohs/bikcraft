@@ -238,7 +238,6 @@ $gray: #b2b2b2;
 
         &::before {
           @include yellowRectangle;
-          top: 1.1rem;
         }
       }
       &__item {
@@ -405,14 +404,12 @@ $gray: #b2b2b2;
       margin-top: 16px;
 
       &::before {
-        content: "";
-        position: absolute;
-        width: 1.5rem;
-        height: 0.5rem;
-        top: 0.9rem;
-        left: -2.2rem;
-        background: #ffbb00;
-      }
+        @include yellowRectangle;
+        top: 40%;
+        left: -6%;
+        width: 15px;
+        height: 5px;
+      } 
     }
 
     &__card-btn {
