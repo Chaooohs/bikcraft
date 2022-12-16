@@ -1,6 +1,7 @@
 @media (max-width: 992px) {
   .main .title {
     font-size: 4.3rem;
+    line-height: 5.2rem;
   }
   .main .header {
     padding: 3rem 3rem 3.2rem;
@@ -17,6 +18,9 @@
   .main .block-two .title {
     text-align: center;
     padding: 0;
+  }
+  .main .block-five {
+    grid-template-columns: 1fr;
   }
   .main .block-six {
     padding: 4.56% 3rem 4.7%;
