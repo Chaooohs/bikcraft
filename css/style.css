@@ -10,7 +10,7 @@ body {
 .title {
   font-family: "Poppins";
   font-weight: 600;
-  font-size: 6.4rem;
+  font-size: 6.3rem;
   line-height: 7.2rem;
   color: #fff;
 }
@@ -32,8 +32,8 @@ body {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 2.4rem;
-  line-height: 3.6rem;
+  font-size: 24px;
+  line-height: 36px;
   color: #b2b2b2;
 }
 
@@ -76,7 +76,6 @@ body {
   color: #ffbb00;
 }
 .main .block-one {
-  position: relative;
   box-sizing: border-box;
   padding: 0 8.75% 6.63% 13.75%;
   background: #000;
@@ -89,9 +88,6 @@ body {
 }
 .main .block-one__left {
   padding-top: 15.7%;
-}
-.main .block-one .title {
-  font-size: 6.3rem;
 }
 .main .block-one .item {
   margin-top: 3.2rem;
@@ -128,7 +124,7 @@ body {
 }
 .main .block-two .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 4rem;
   box-sizing: border-box;
   padding-top: 2.75%;

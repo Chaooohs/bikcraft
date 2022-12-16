@@ -1,0 +1,23 @@
+@media (max-width: 992px) {
+  .main {
+    .title {
+      font-size: 4.3rem;
+    }
+
+    .block-one {
+      padding: 0 1.5rem 6.63% 1.5rem;
+    }
+
+    .block-two {
+      padding: 9% 1.5rem 12.1%;
+
+      .title {
+        text-align: center;
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+}

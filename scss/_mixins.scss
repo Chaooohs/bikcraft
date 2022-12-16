@@ -1,7 +1,7 @@
 @mixin fontTitle {
   font-family: "Poppins";
   font-weight: 600;
-  font-size: 6.4rem;
+  font-size: 6.3rem;
   line-height: 7.2rem;
   color: $white;
 }
@@ -10,8 +10,8 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 2.4rem;
-  line-height: 3.6rem;
+  font-size: 24px;
+  line-height: 36px;
   color: $gray;
 }
 
@@ -20,6 +20,7 @@
   padding-left: 12.81%;
   color: #111111;
 }
+
 @mixin dot {
   span {
     position: relative;
