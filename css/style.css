@@ -80,15 +80,6 @@ body {
   box-sizing: border-box;
   padding: 0 8.75% 6.63% 13.75%;
   background: #000;
-  /* &::before {
-    content: "";
-    width: 40%;
-    position: absolute;
-    top: 0rem;
-    right: 9.72%;
-    background: url("../img/img1.png") 0 0 / 100% no-repeat;
-    padding-top: 50%;
-  } */
 }
 .main .block-one__image {
   float: right;
@@ -137,7 +128,7 @@ body {
 }
 .main .block-two .cards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 4rem;
   box-sizing: border-box;
   padding-top: 2.75%;
