@@ -292,12 +292,32 @@ $gray: #b2b2b2;
     }
 
     &__text {
+      position: relative;
       font-family: "Merriweather";
       font-style: italic;
       font-weight: 900;
       font-size: 7cqi;
-      line-height: 9.2cqi;
+      line-height: 9.3cqi;
       color: #332200;
+
+      &::before {
+        content: '';
+        position: absolute;
+        background: url('../img/partners/“1.svg') 0 0 / 100% no-repeat;
+        top: -4%;
+        left: -8%;
+        width: 8%;
+        height: 15%;
+      }
+      &::after {
+        content: '';
+        position: absolute;
+        background: url('../img/partners/“2.svg') 0 0 / 100% no-repeat;
+        right: -8%;
+        bottom: -8%;
+        width: 8%;
+        height: 15%;
+      }
     }
 
     &__signature {
