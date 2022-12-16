@@ -6,12 +6,12 @@
     .block-three,
     .block-four,
     .block-six {
-      padding-right: 3rem;
-      padding-left: 3rem;
+      padding-right: 30px;
+      padding-left: 30px;
     }
     .title {
-      font-size: 4.3rem;
-      line-height: 5.2rem;
+      font-size: 43px;
+      line-height: 52px;
     }
     .header {
       .nav__list {
@@ -25,24 +25,27 @@
         padding: 0;
       }
     }
+    .block-three {
+      &__image {
+        width: 50%;
+      }
+    }
     .block-four {
       &__block {
         grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
       }
     }
     .block-six {
-      .title {
-        text-align: center;
-        padding: 0;
-      }
-
       &__cards {
-        grid-template-columns: 1fr;
-        row-gap: 5rem;
+        grid-template-columns: 1fr 1fr;
+        gap: 2%;
+        align-items: flex-end;
       }
 
       &__left,
       &__right {
+        width: 100%;
+        max-width: 456px;
         justify-self: center;
         margin: 0;
       }
@@ -51,6 +54,19 @@
 }
 
 @media (max-width: 768px) {
+  .main {
+    .block-six {
+      .title {
+        text-align: center;
+        padding: 0;
+      }
+
+      &__cards {
+        grid-template-columns: 1fr;
+        gap: 5%;
+      }
+    }
+  }
 }
 
 @media (max-width: 520px) {
@@ -60,10 +76,14 @@
     .block-two,
     .block-three,
     .block-four {
-      padding-right: 1.5rem;
-      padding-left: 1.5rem;
+      padding-right: 15px;
+      padding-left: 15px;
     }
-
+    .header {
+      .logo {
+        font-size: 26px;
+      }
+    }
     .block-one {
       &__left {
         container-type: normal;
@@ -77,7 +97,7 @@
       &__left {
         clear: right;
       }
-      
+
       .choise-models {
         flex-direction: column;
       }

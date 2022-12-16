@@ -5,12 +5,12 @@
 .main .block-three,
 .main .block-four,
 .main .block-six {
-    padding-right: 3rem;
-    padding-left: 3rem;
+    padding-right: 30px;
+    padding-left: 30px;
   }
   .main .title {
-    font-size: 4.3rem;
-    line-height: 5.2rem;
+    font-size: 43px;
+    line-height: 52px;
   }
   .main .header .nav__list {
     display: none;
@@ -19,20 +19,32 @@
     text-align: center;
     padding: 0;
   }
+  .main .block-three__image {
+    width: 50%;
+  }
   .main .block-four__block {
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   }
+  .main .block-six__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+    align-items: flex-end;
+  }
+  .main .block-six__left, .main .block-six__right {
+    width: 100%;
+    max-width: 456px;
+    justify-self: center;
+    margin: 0;
+  }
+}
+@media (max-width: 768px) {
   .main .block-six .title {
     text-align: center;
     padding: 0;
   }
   .main .block-six__cards {
     grid-template-columns: 1fr;
-    row-gap: 5rem;
-  }
-  .main .block-six__left, .main .block-six__right {
-    justify-self: center;
-    margin: 0;
+    gap: 5%;
   }
 }
 @media (max-width: 520px) {
@@ -41,8 +53,11 @@
 .main .block-two,
 .main .block-three,
 .main .block-four {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .main .header .logo {
+    font-size: 26px;
   }
   .main .block-one__left {
     container-type: normal;

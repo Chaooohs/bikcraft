@@ -39,9 +39,8 @@ $gray: #b2b2b2;
     .logo {
       font-family: "Poppins";
       font-weight: 500;
-      // font-size: 3cqi;
-      font-size: 3.6rem;
-      line-height: 3.2rem;
+      font-size: 36px;
+      line-height: 32px;
       color: #fff;
     }
     .nav {
@@ -89,14 +88,14 @@ $gray: #b2b2b2;
       line-height: 14cqi;
     }
     .item {
-      margin-top: 3.2rem;
+      margin-top: 32px;
     }
 
     &__btn {
       font-family: "Poppins";
       font-weight: 600;
-      font-size: 1.8rem;
-      line-height: 2.4rem;
+      font-size: 18px;
+      line-height: 24px;
       text-transform: uppercase;
       color: #332200;
 
@@ -105,7 +104,7 @@ $gray: #b2b2b2;
       background: $yellow;
       border-radius: 5px;
       box-sizing: border-box;
-      padding: 1.9rem 3.2rem 1.6rem 2.9rem;
+      padding: 19px 32px 16px 29px;
       margin-top: 3.2rem;
     }
   }
@@ -142,8 +141,8 @@ $gray: #b2b2b2;
         color: #111111;
 
         box-sizing: border-box;
-        padding-left: 3.1rem;
-        margin-top: 1.5rem;
+        padding-left: 31px;
+        margin-top: 15px;
 
         &::before {
           @include yellowRectangle;
@@ -152,13 +151,13 @@ $gray: #b2b2b2;
       &__item {
         font-family: "Roboto";
         font-weight: 500;
-        font-size: 1.8rem;
-        line-height: 2.4rem;
+        font-size: 18px;
+        line-height: 24px;
         color: #595959;
 
         box-sizing: border-box;
-        padding-left: 3.1rem;
-        margin-top: 1rem;
+        padding-left: 31px;
+        margin-top: 10px;
       }
     }
   }
@@ -183,8 +182,8 @@ $gray: #b2b2b2;
       &-caption {
         font-family: "Roboto";
         font-weight: 500;
-        font-size: 2.4rem;
-        line-height: 3.2rem;
+        font-size: 24px;
+        line-height: 32px;
         letter-spacing: 0.015em;
         text-transform: uppercase;
         color: $gray;
@@ -208,8 +207,8 @@ $gray: #b2b2b2;
       position: relative;
       font-family: "Poppins";
       font-weight: 600;
-      font-size: 2.4rem;
-      line-height: 3.6rem;
+      font-size: 24px;
+      line-height: 36px;
       color: #ffbb00;
       margin-top: 2.6rem;
 
@@ -231,12 +230,12 @@ $gray: #b2b2b2;
         position: relative;
         font-family: "Poppins";
         font-weight: 500;
-        font-size: 2.4rem;
-        line-height: 3.6rem;
+        font-size: 24px;
+        line-height: 36px;
         color: $white;
 
         box-sizing: border-box;
-        padding-left: 2.9rem;
+        padding-left: 29px;
 
         &::before {
           @include yellowRectangle;
@@ -246,10 +245,10 @@ $gray: #b2b2b2;
       &__item {
         font-family: "Roboto";
         font-weight: 400;
-        font-size: 1.6rem;
-        line-height: 2.4rem;
+        font-size: 16px;
+        line-height: 24px;
         color: $gray;
-        margin-top: 1.6rem;
+        margin-top: 16px;
       }
     }
   }
@@ -338,7 +337,7 @@ $gray: #b2b2b2;
   .block-six {
     background: #161616;
     box-sizing: border-box;
-    padding: 7.3rem 7rem 10rem;
+    padding: 7.3rem 0 10rem;
 
     .title {
       box-sizing: border-box;
@@ -348,23 +347,19 @@ $gray: #b2b2b2;
     &__cards {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      // column-gap: 4.1rem;
       align-items: center;
+      gap: 2%;
       margin-top: 3.6rem;
     }
 
     &__left,
     &__right {
+      width: 456px;
       justify-self: flex-end;
-      width: 45.6rem;
       background: #000000;
       border-radius: 7px;
       box-sizing: border-box;
       padding: 3.3rem 2.8rem 2.8rem 5.7rem;
-    }
-
-    &__left {
-      margin-right: 5%;
     }
 
     &__right {
@@ -396,8 +391,8 @@ $gray: #b2b2b2;
 
       .string {
         @include fontPrata;
-        font-size: 1.2rem;
-        line-height: 1.6rem;
+        font-size: 12px;
+        line-height: 16px;
       }
     }
 
@@ -408,7 +403,7 @@ $gray: #b2b2b2;
       font-size: 18px;
       line-height: 24px;
       color: $white;
-      margin-top: 1.6rem;
+      margin-top: 16px;
 
       &::before {
         content: "";
@@ -424,15 +419,16 @@ $gray: #b2b2b2;
     &__card-btn {
       font-family: "Poppins";
       font-weight: 600;
-      font-size: 1.8rem;
-      line-height: 2.4rem;
+      font-size: 18px;
+      line-height: 24px;
       color: #cccccc;
       text-transform: uppercase;
 
+      border: none;
       background: #2e2e2e;
       border-radius: 5px;
       box-sizing: border-box;
-      padding: 1.5rem 2.8rem;
+      padding: 16px 28px;
       margin-top: 3.5rem;
     }
   }

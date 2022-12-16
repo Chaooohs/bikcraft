@@ -1,8 +1,8 @@
 @mixin fontTitle {
   font-family: "Poppins";
   font-weight: 600;
-  font-size: 6.3rem;
-  line-height: 7.2rem;
+  font-size: 63px;
+  line-height: 72px;
   color: $white;
 }
 
@@ -50,7 +50,7 @@
 @mixin fontPrata {
   font-family: "Poppins";
   font-weight: 600;
-  font-size: 3.6rem;
-  line-height: 4.8rem;
+  font-size: 36px;
+  line-height: 48px;
   color: #9c9c9c;
 }

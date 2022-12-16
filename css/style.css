@@ -11,8 +11,8 @@ body {
 .title {
   font-family: "Poppins";
   font-weight: 600;
-  font-size: 6.3rem;
-  line-height: 7.2rem;
+  font-size: 63px;
+  line-height: 72px;
   color: #fff;
 }
 .title span {
@@ -54,8 +54,8 @@ body {
 .main .header .logo {
   font-family: "Poppins";
   font-weight: 500;
-  font-size: 3.6rem;
-  line-height: 3.2rem;
+  font-size: 36px;
+  line-height: 32px;
   color: #fff;
 }
 .main .header .nav {
@@ -97,13 +97,13 @@ body {
   line-height: 14cqi;
 }
 .main .block-one .item {
-  margin-top: 3.2rem;
+  margin-top: 32px;
 }
 .main .block-one__btn {
   font-family: "Poppins";
   font-weight: 600;
-  font-size: 1.8rem;
-  line-height: 2.4rem;
+  font-size: 18px;
+  line-height: 24px;
   text-transform: uppercase;
   color: #332200;
   border: none;
@@ -111,7 +111,7 @@ body {
   background: #f6ad09;
   border-radius: 5px;
   box-sizing: border-box;
-  padding: 1.9rem 3.2rem 1.6rem 2.9rem;
+  padding: 19px 32px 16px 29px;
   margin-top: 3.2rem;
 }
 .main .block-two {
@@ -144,8 +144,8 @@ body {
   line-height: 4rem;
   color: #111111;
   box-sizing: border-box;
-  padding-left: 3.1rem;
-  margin-top: 1.5rem;
+  padding-left: 31px;
+  margin-top: 15px;
 }
 .main .block-two .card__title::before {
   content: "";
@@ -159,12 +159,12 @@ body {
 .main .block-two .card__item {
   font-family: "Roboto";
   font-weight: 500;
-  font-size: 1.8rem;
-  line-height: 2.4rem;
+  font-size: 18px;
+  line-height: 24px;
   color: #595959;
   box-sizing: border-box;
-  padding-left: 3.1rem;
-  margin-top: 1rem;
+  padding-left: 31px;
+  margin-top: 10px;
 }
 .main .block-three {
   position: relative;
@@ -186,8 +186,8 @@ body {
 .main .block-three__left-caption {
   font-family: "Roboto";
   font-weight: 500;
-  font-size: 2.4rem;
-  line-height: 3.2rem;
+  font-size: 24px;
+  line-height: 32px;
   letter-spacing: 0.015em;
   text-transform: uppercase;
   color: #b2b2b2;
@@ -209,8 +209,8 @@ body {
   position: relative;
   font-family: "Poppins";
   font-weight: 600;
-  font-size: 2.4rem;
-  line-height: 3.6rem;
+  font-size: 24px;
+  line-height: 36px;
   color: #ffbb00;
   margin-top: 2.6rem;
 }
@@ -231,11 +231,11 @@ body {
   position: relative;
   font-family: "Poppins";
   font-weight: 500;
-  font-size: 2.4rem;
-  line-height: 3.6rem;
+  font-size: 24px;
+  line-height: 36px;
   color: #fff;
   box-sizing: border-box;
-  padding-left: 2.9rem;
+  padding-left: 29px;
 }
 .main .block-three .choise-models__title::before {
   content: "";
@@ -250,10 +250,10 @@ body {
 .main .block-three .choise-models__item {
   font-family: "Roboto";
   font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 2.4rem;
+  font-size: 16px;
+  line-height: 24px;
   color: #b2b2b2;
-  margin-top: 1.6rem;
+  margin-top: 16px;
 }
 .main .block-four {
   background: #fff;
@@ -333,7 +333,7 @@ body {
 .main .block-six {
   background: #161616;
   box-sizing: border-box;
-  padding: 7.3rem 7rem 10rem;
+  padding: 7.3rem 0 10rem;
 }
 .main .block-six .title {
   box-sizing: border-box;
@@ -343,18 +343,16 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  gap: 2%;
   margin-top: 3.6rem;
 }
 .main .block-six__left, .main .block-six__right {
+  width: 456px;
   justify-self: flex-end;
-  width: 45.6rem;
   background: #000000;
   border-radius: 7px;
   box-sizing: border-box;
   padding: 3.3rem 2.8rem 2.8rem 5.7rem;
-}
-.main .block-six__left {
-  margin-right: 5%;
 }
 .main .block-six__right {
   justify-self: flex-start;
@@ -366,8 +364,8 @@ body {
 .main .block-six__card-title-left {
   font-family: "Poppins";
   font-weight: 600;
-  font-size: 3.6rem;
-  line-height: 4.8rem;
+  font-size: 36px;
+  line-height: 48px;
   color: #9c9c9c;
 }
 .main .block-six .gold {
@@ -381,19 +379,19 @@ body {
 .main .block-six__card-title-right .price {
   font-family: "Poppins";
   font-weight: 600;
-  font-size: 3.6rem;
-  line-height: 4.8rem;
+  font-size: 36px;
+  line-height: 48px;
   color: #9c9c9c;
   color: #fff;
 }
 .main .block-six__card-title-right .string {
   font-family: "Poppins";
   font-weight: 600;
-  font-size: 3.6rem;
-  line-height: 4.8rem;
+  font-size: 36px;
+  line-height: 48px;
   color: #9c9c9c;
-  font-size: 1.2rem;
-  line-height: 1.6rem;
+  font-size: 12px;
+  line-height: 16px;
 }
 .main .block-six__card-item {
   position: relative;
@@ -402,7 +400,7 @@ body {
   font-size: 18px;
   line-height: 24px;
   color: #fff;
-  margin-top: 1.6rem;
+  margin-top: 16px;
 }
 .main .block-six__card-item::before {
   content: "";
@@ -416,13 +414,14 @@ body {
 .main .block-six__card-btn {
   font-family: "Poppins";
   font-weight: 600;
-  font-size: 1.8rem;
-  line-height: 2.4rem;
+  font-size: 18px;
+  line-height: 24px;
   color: #cccccc;
   text-transform: uppercase;
+  border: none;
   background: #2e2e2e;
   border-radius: 5px;
   box-sizing: border-box;
-  padding: 1.5rem 2.8rem;
+  padding: 16px 28px;
   margin-top: 3.5rem;
 }/*# sourceMappingURL=style.css.map */
