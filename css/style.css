@@ -131,7 +131,7 @@ body {
 }
 .main .block-two .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
   gap: 4rem;
   box-sizing: border-box;
   margin-top: 4.4rem;

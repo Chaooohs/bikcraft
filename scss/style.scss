@@ -65,7 +65,6 @@ $gray: #b2b2b2;
   }
 
   .block-one {
-    // position: relative;
     box-sizing: border-box;
     padding: 0 8.75% 6.63% 13.75%;
 
@@ -124,8 +123,7 @@ $gray: #b2b2b2;
     }
     .cards {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
-      // grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
       gap: 4rem;
 
       box-sizing: border-box;
