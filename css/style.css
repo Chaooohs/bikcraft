@@ -87,8 +87,8 @@ body {
   background: none;
   border: none;
 }
-.main .header .nav.active::before { /*! подложка при открытом меню бургер*/
-  content: ""; /*! под нее уходит список при скроле*/
+.main .header .nav.active::before {
+  /*! подложка при открытом меню бургер*/
   position: fixed;
   top: 0;
   left: 0;
@@ -99,24 +99,24 @@ body {
 }
 .main .header .nav.active .nav__list {
   position: fixed;
-  top: 0;
+  top: 10.8rem;
   left: 0;
-  right: 50%;
-  bottom: 0;
+  right: 0;
+  bottom: 60vh;
   z-index: 2;
-  display: flex;
-  flex-direction: column;
-  row-gap: 3rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
   font-size: 2.4rem;
-  background-color: white;
+  background-color: #1e1e1e;
   box-sizing: border-box;
-  padding: 21.8rem 0 0 3rem;
+  padding: 1rem 0 1rem 3rem;
 }
 .main .header .nav.active .nav__link {
   color: #b2b2b2;
 }
 .main .header .nav.active .nav__link:hover {
-  color: #000;
+  color: #ffbb00;
 }
 .main .block-one {
   box-sizing: border-box;
