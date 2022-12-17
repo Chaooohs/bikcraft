@@ -8,14 +8,6 @@ body {
   background: #b2b2b2;
 }
 
-li:hover {
-  color: #ffbb00;
-}
-
-a:hover {
-  color: #ffbb00;
-}
-
 .title {
   font-family: "Poppins";
   font-weight: 600;
@@ -49,6 +41,12 @@ a:hover {
 .main {
   max-width: 1600px;
   margin: 0 auto;
+}
+.main a {
+  transition: all 0.2s linear;
+}
+.main a:hover {
+  color: #ffbb00;
 }
 .main .header {
   container-type: inline-size;
@@ -115,7 +113,6 @@ a:hover {
   text-transform: uppercase;
   color: #332200;
   border: none;
-  outline: none;
   background: #f6ad09;
   border-radius: 5px;
   box-sizing: border-box;
@@ -439,9 +436,9 @@ a:hover {
 .main .footer {
   display: grid;
   grid-template-columns: 1.4fr 1.9fr 2.4fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr auto;
   box-sizing: border-box;
-  padding: 5.6rem 0 4.6rem 21rem;
+  padding: 5.6rem 0 4.6rem 12.75%;
   background: #000;
 }
 .main .footer__logo-text {
@@ -461,7 +458,7 @@ a:hover {
   line-height: 32px;
   letter-spacing: 0.015em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
 }
 .main .footer__contacts-nav {
   margin-top: 31px;
@@ -497,7 +494,7 @@ a:hover {
   line-height: 32px;
   letter-spacing: 0.015em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
 }
 .main .footer__inform-nav {
   margin-top: 31px;
@@ -521,5 +518,6 @@ a:hover {
   letter-spacing: 0.015em;
   color: #b2b2b2;
   grid-row: 2;
-  margin-top: 5.5rem;
+  grid-column: 1/3;
+  padding: 5.6rem 0 4.6rem;
 }/*# sourceMappingURL=style.css.map */

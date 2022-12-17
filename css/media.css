@@ -38,6 +38,15 @@
     justify-self: center;
     margin: 0;
   }
+  .main .footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8rem;
+    padding-top: 8.6rem;
+  }
+  .main .footer__under {
+    padding: 1rem 0 4.6rem;
+  }
 }
 @media (max-width: 768px) {
   .main .block-six .title {
