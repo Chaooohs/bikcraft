@@ -54,3 +54,22 @@
   line-height: 48px;
   color: #9c9c9c;
 }
+
+@mixin fontFooterTitle {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+@mixin fontFooterItem {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.015em;
+  color: #b2b2b2;
+}

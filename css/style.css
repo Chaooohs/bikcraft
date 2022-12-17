@@ -8,6 +8,14 @@ body {
   background: #b2b2b2;
 }
 
+li:hover {
+  color: #ffbb00;
+}
+
+a:hover {
+  color: #ffbb00;
+}
+
 .title {
   font-family: "Poppins";
   font-weight: 600;
@@ -427,4 +435,91 @@ body {
   box-sizing: border-box;
   padding: 16px 28px;
   margin-top: 3.5rem;
+}
+.main .footer {
+  display: grid;
+  grid-template-columns: 1.4fr 1.9fr 2.4fr;
+  grid-template-rows: 1fr 1fr;
+  box-sizing: border-box;
+  padding: 5.6rem 0 4.6rem 21rem;
+  background: #000;
+}
+.main .footer__logo-text {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 32px;
+  color: #fff;
+}
+.main .footer__contacts {
+  margin-top: 10px;
+}
+.main .footer__contacts-title {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.main .footer__contacts-nav {
+  margin-top: 31px;
+}
+.main .footer__contacts-item:last-of-type {
+  margin-top: 3rem;
+}
+.main .footer__contacts-link {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.015em;
+  color: #b2b2b2;
+}
+.main .footer__social {
+  margin-top: 20px;
+  display: flex;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+}
+.main .footer__social-link {
+  width: 3.2rem;
+  display: inline-block;
+}
+.main .footer__inform {
+  margin-top: 10px;
+}
+.main .footer__footer-title {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.main .footer__inform-nav {
+  margin-top: 31px;
+}
+.main .footer__inform-link {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.015em;
+  color: #b2b2b2;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 36px;
+}
+.main .footer__under {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.015em;
+  color: #b2b2b2;
+  grid-row: 2;
+  margin-top: 5.5rem;
 }/*# sourceMappingURL=style.css.map */

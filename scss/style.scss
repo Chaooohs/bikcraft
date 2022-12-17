@@ -8,6 +8,12 @@ html {
 body {
   background: #b2b2b2;
 }
+li:hover {
+  color: #ffbb00;
+}
+a:hover {
+  color: #ffbb00;
+}
 
 $white: #fff;
 $yellow: #f6ad09;
@@ -409,7 +415,7 @@ $gray: #b2b2b2;
         left: -3rem;
         width: 15px;
         height: 5px;
-      } 
+      }
     }
 
     &__card-btn {
@@ -430,5 +436,73 @@ $gray: #b2b2b2;
   }
 
   .footer {
+    display: grid;
+    grid-template-columns: 1.4fr 1.9fr 2.4fr;
+    grid-template-rows: 1fr 1fr;
+
+    box-sizing: border-box;
+    padding: 5.6rem 0 4.6rem 21rem;
+    background: #000;
+
+    &__logo {
+    }
+    &__logo-text {
+      font-family: "Poppins";
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 32px;
+      color: $white;
+    }
+    &__contacts {
+      margin-top: 10px;
+    }
+    &__contacts-title {
+      @include fontFooterTitle;
+    }
+    &__contacts-nav {
+      margin-top: 31px;
+    }
+    &__contacts-list {
+    }
+    &__contacts-item:last-of-type {
+      margin-top: 3rem;
+    }
+    &__contacts-link {
+      @include fontFooterItem;
+    }
+    &__social {
+      margin-top: 20px;
+      display: flex;
+      column-gap: 32px;
+
+      &-link {
+        width: 3.2rem;
+        display: inline-block;
+      }
+    }
+    &__inform {
+      margin-top: 10px;
+    }
+    &__footer-title {
+      @include fontFooterTitle;
+    }
+    &__inform-nav {
+      margin-top: 31px;
+    }
+    &__inform-lift {
+    }
+    &__inform-item {
+    }
+    &__inform-link {
+      @include fontFooterItem;
+      font-family: "Poppins";
+      font-weight: 500;
+      line-height: 36px;
+    }
+    &__under {
+      @include fontFooterItem;
+      grid-row: 2;
+      margin-top: 5.5rem;
+    }
   }
 }
