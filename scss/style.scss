@@ -76,6 +76,16 @@ $gray: #b2b2b2;
       }
     }
     .nav.active {
+      &::before {                    /*! подложка при открытом меню бургер*/
+        content: "";                    /*! под нее уходит список при скроле*/
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 10.8rem;
+        background-color: black;
+        z-index: 4;
+      }
       .nav__list {
         position: fixed;
         top: 0;
@@ -92,7 +102,7 @@ $gray: #b2b2b2;
         background-color: white;
 
         box-sizing: border-box;
-        padding: 10.8rem 0 0 3rem;
+        padding: 21.8rem 0 0 3rem;
       }
       .nav__link {
         color: $gray;

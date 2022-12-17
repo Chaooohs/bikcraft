@@ -13,11 +13,19 @@
     font-size: 43px;
     line-height: 52px;
   }
+  .main .header {
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+  }
   .main .header .nav__list {
     display: none;
   }
   .main .header .nav__btn {
     display: block;
+  }
+  .main .block-two {
+    padding-top: 10.8rem;
   }
   .main .block-two .title {
     padding: 0;
