@@ -49,10 +49,9 @@ body {
   color: #ffbb00;
 }
 .main .header {
-  container-type: inline-size;
-  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
   background: #000;
   box-sizing: border-box;
   padding: 3rem 22.8rem 3rem 22rem;
@@ -61,7 +60,6 @@ body {
   font-family: "Poppins";
   font-weight: 500;
   font-size: 36px;
-  line-height: 32px;
   color: #fff;
 }
 .main .header .nav {
@@ -82,6 +80,33 @@ body {
 }
 .main .header .nav__link:hover {
   color: #ffbb00;
+}
+.main .header .nav__btn {
+  width: 5.8rem;
+  display: none;
+  background: none;
+  border: none;
+}
+.main .header .nav.active .nav__list {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 50%;
+  bottom: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  font-size: 2.4rem;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 10.8rem 0 0 3rem;
+}
+.main .header .nav.active .nav__link {
+  color: #b2b2b2;
+}
+.main .header .nav.active .nav__link:hover {
+  color: #000;
 }
 .main .block-one {
   box-sizing: border-box;

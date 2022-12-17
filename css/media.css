@@ -4,7 +4,8 @@
 .main .block-two,
 .main .block-three,
 .main .block-four,
-.main .block-six {
+.main .block-six,
+.main .footer {
     padding-right: 30px;
     padding-left: 30px;
   }
@@ -14,6 +15,9 @@
   }
   .main .header .nav__list {
     display: none;
+  }
+  .main .header .nav__btn {
+    display: block;
   }
   .main .block-two .title {
     padding: 0;
@@ -66,7 +70,8 @@
 .main .block-one,
 .main .block-two,
 .main .block-three,
-.main .block-four {
+.main .block-four,
+.main .footer {
     padding-right: 15px;
     padding-left: 15px;
   }
