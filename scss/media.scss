@@ -1,4 +1,8 @@
 @media (max-width: 992px) {
+  .item {
+    font-size: 18px;
+    line-height: 26px;
+  }
   .main {
     .header,
     .block-one,
@@ -18,6 +22,8 @@
       position: fixed;
       width: 100%;
       z-index: 4;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
       .nav__list {
         display: none;
       }
@@ -25,7 +31,12 @@
         display: block;
       }
     }
-
+    .block-one {
+      padding-top: 8rem;
+      &__btn {
+        font-size: 16px;
+      }
+    }
     .block-two {
       padding-top: 10.8rem;
       .title {
