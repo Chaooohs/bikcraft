@@ -75,40 +75,37 @@ $gray: #b2b2b2;
         border: none;
       }
     }
-    .nav.active {
-      &::before {
-        // content: "";                    
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 10.8rem;
-        background-color: black;
-        z-index: 4;
-      }
-      .nav__list {
-        position: fixed;
-        top: 8rem;
-        left: 0;
-        right: 0;
-        bottom: 60vh;
-        z-index: 2;
+    .nav__mobile {
+      position: fixed;
+      transform: translateX(-100vw);
+      transition: all 0.25s linear;
+    }
+  }
+  .nav__mobile.active {
+    transform: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        align-items: center;
+    .nav__mobile-list {
+      position: fixed;
+      top: 7.9rem;
+      left: 0;
+      right: auto;
+      height: 100%;
+      max-width: 80%;
+      width: 400px;
 
-        font-size: 2.4rem;
-        background-color: #1e1e1e;
+      box-sizing: border-box;
+      padding: 4rem 0 1rem 7.5rem;
 
-        box-sizing: border-box;
-        padding: 1rem 0 1rem 3rem;
-      }
-      .nav__link {
-        color: $gray;
-        &:hover {
-          color: #ffbb00;
-        }
+      @include fontItem;
+      background-color: #1e1e1e;
+    }
+    .nav__mobile-link {
+      color: $gray;
+      &:hover {
+        color: #ffbb00;
       }
     }
   }
