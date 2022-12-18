@@ -1,8 +1,4 @@
 @media (max-width: 992px) {
-  .item {
-    font-size: 18px;
-    line-height: 26px;
-  }
   .main .header,
 .main .block-one,
 .main .block-two,
@@ -86,6 +82,10 @@
 @media (max-width: 520px) {
   html {
     font-size: 8px;
+  }
+  .item {
+    font-size: 18px;
+    line-height: 26px;
   }
   .main .header,
 .main .block-one,
