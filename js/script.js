@@ -1,6 +1,6 @@
 
 
-const nav = document.querySelector('.nav__mobile');
+const nav = document.querySelector('.nav-mobile');
 const burger = document.querySelector('.nav__btn');
 const body = document.querySelector('body');                
 
