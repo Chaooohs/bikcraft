@@ -99,6 +99,9 @@
   .main .header .logo {
     font-size: 26px;
   }
+  .main .header .nav-mobile {
+    top: 72px;
+  }
   .main .block-one__left {
     container-type: normal;
     clear: right;
