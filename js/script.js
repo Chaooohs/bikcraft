@@ -6,8 +6,10 @@ const body = document.querySelector('body');
 
 burger.onclick = () => {
   if (nav.classList.toggle('active')) {            
-    body.classList.add('no-scroll');                    
+    body.classList.add('no-scroll'); 
+    burger.classList.add('active');                   
   } else {
-    body.classList.remove('no-scroll');                  
+    body.classList.remove('no-scroll');
+    burger.classList.remove('active');                  
   }
 }

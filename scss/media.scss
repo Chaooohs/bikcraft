@@ -18,8 +18,8 @@
       position: fixed;
       width: 100%;
       z-index: 4;
-      padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
+      padding-top: 2.5rem;
+      padding-bottom: 2.5rem;
       .nav__list {
         display: none;
       }
@@ -116,11 +116,13 @@
       padding-left: 15px;
     }
     .header {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
       .logo {
         font-size: 26px;
       }
       .nav-mobile {
-        top: 72px;
+        top: 54px;
       }
     }
     .block-one {
