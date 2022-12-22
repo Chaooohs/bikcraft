@@ -216,11 +216,11 @@ body {
   box-sizing: border-box;
   margin-top: 4.4rem;
 }
-.main .block-two .cards a {
-  transition: all 0.1s linear;
-}
-.main .block-two .cards a:active {
+.main .block-two .cards__link:active .card__image {
   transform: translateY(4px);
+}
+.main .block-two .card__image {
+  transition: all 0.1s linear;
 }
 .main .block-two .card__title {
   position: relative;

@@ -215,14 +215,15 @@ $transformBtn: translateY(4px);
 
       box-sizing: border-box;
       margin-top: 4.4rem;
-      a {
-        transition: all 0.1s linear;
-        &:active {
-          transform: $transformBtn;
-        }
+
+      &__link:active .card__image {
+        transform: $transformBtn;
       }
     }
     .card {
+      &__image {
+        transition: all 0.1s linear;
+      }
       &__title {
         position: relative;
         font-family: "Poppins";
