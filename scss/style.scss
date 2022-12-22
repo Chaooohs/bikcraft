@@ -29,8 +29,10 @@ $transformBtn: translateY(4px);
   a {
     transition: all 0.2s linear;
   }
-  a:hover {
-    color: #ffbb00;
+  @media (any-hover: hover) {
+    a:hover {
+      color: #ffbb00;
+    }
   }
 
   .header {
@@ -98,16 +100,18 @@ $transformBtn: translateY(4px);
           bottom: 0;
         }
       }
-      .burger.active .burger__line-first,
-      .burger.active .burger__line-fourth {
-        opacity: 0;
-      }
-      .burger.active .burger__line-second {
-        transform: translateY(-50%) rotate(45deg);
-      }
-      .burger.active .burger__line-third {
-        transform: translateY(-50%) rotate(-45deg);
-      }
+      .burger.active {
+        .burger__line-first,
+        .burger__line-fourth {
+          opacity: 0;
+        }
+        .burger__line-second {
+          transform: translateY(-50%) rotate(45deg);
+        }
+        .burger__line-third {
+          transform: translateY(-50%) rotate(-45deg);
+        }
+      } 
     }
     .nav-mobile {
       background-color: #2e2e2e;
@@ -138,9 +142,6 @@ $transformBtn: translateY(4px);
 
       &__link {
         @include fontFooterItem;
-        &:hover {
-          color: #ffbb00;
-        }
       }
     }
     .nav-mobile.active {

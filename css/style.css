@@ -45,8 +45,10 @@ body {
 .main a {
   transition: all 0.2s linear;
 }
-.main a:hover {
-  color: #ffbb00;
+@media (any-hover: hover) {
+  .main a:hover {
+    color: #ffbb00;
+  }
 }
 .main .header {
   display: grid;
@@ -147,9 +149,6 @@ body {
   line-height: 32px;
   letter-spacing: 0.015em;
   color: #b2b2b2;
-}
-.main .header .nav-mobile__link:hover {
-  color: #ffbb00;
 }
 .main .header .nav-mobile.active {
   transform: none;
