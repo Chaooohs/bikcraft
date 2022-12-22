@@ -12,6 +12,7 @@ body {
 $white: #fff;
 $yellow: #f6ad09;
 $gray: #b2b2b2;
+$transformBtn: translateY(4px);
 
 .title {
   @include fontTitle;
@@ -30,12 +31,6 @@ $gray: #b2b2b2;
   }
   a:hover {
     color: #ffbb00;
-  }
-  button {
-    transition: all 0.1s linear;
-    &:active {
-      transform: translateY(2px);
-    }
   }
 
   .header {
@@ -195,7 +190,7 @@ $gray: #b2b2b2;
 
       transition: all 0.1s linear;
       &:active {
-        transform: translateY(2px);
+        transform: $transformBtn;
       }
     }
   }
@@ -223,7 +218,7 @@ $gray: #b2b2b2;
       a {
         transition: all 0.1s linear;
         &:active {
-          transform: translateY(2px);
+          transform: $transformBtn;
         }
       }
     }
@@ -526,7 +521,7 @@ $gray: #b2b2b2;
 
       transition: all 0.1s linear;
       &:active {
-        transform: translateY(2px);
+        transform: $transformBtn;
       }
     }
   }

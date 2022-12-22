@@ -48,12 +48,6 @@ body {
 .main a:hover {
   color: #ffbb00;
 }
-.main button {
-  transition: all 0.1s linear;
-}
-.main button:active {
-  transform: translateY(2px);
-}
 .main .header {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -198,7 +192,7 @@ body {
   transition: all 0.1s linear;
 }
 .main .block-one__btn:active {
-  transform: translateY(2px);
+  transform: translateY(4px);
 }
 .main .block-two {
   background: #fff;
@@ -226,7 +220,7 @@ body {
   transition: all 0.1s linear;
 }
 .main .block-two .cards a:active {
-  transform: translateY(2px);
+  transform: translateY(4px);
 }
 .main .block-two .card__title {
   position: relative;
@@ -522,7 +516,7 @@ body {
   transition: all 0.1s linear;
 }
 .main .block-six__card-btn:active {
-  transform: translateY(2px);
+  transform: translateY(4px);
 }
 .main .footer {
   display: grid;
