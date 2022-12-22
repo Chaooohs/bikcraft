@@ -119,7 +119,7 @@ body {
   transform: translateY(-50%) rotate(-45deg);
 }
 .main .header .nav-mobile {
-  background-color: #1e1e1e;
+  background-color: #2e2e2e;
   position: fixed;
   top: 80px;
   left: 0;
@@ -219,10 +219,10 @@ body {
 .main .block-two .cards__link:active .card__image {
   transform: translateY(4px);
 }
-.main .block-two .card__image {
+.main .block-two .cards .card__image {
   transition: all 0.1s linear;
 }
-.main .block-two .card__title {
+.main .block-two .cards .card__title {
   position: relative;
   font-family: "Poppins";
   font-weight: 600;
@@ -233,7 +233,7 @@ body {
   padding-left: 31px;
   margin-top: 15px;
 }
-.main .block-two .card__title::before {
+.main .block-two .cards .card__title::before {
   content: "";
   position: absolute;
   top: 36%;
@@ -242,7 +242,7 @@ body {
   height: 10px;
   background: #f6ad09;
 }
-.main .block-two .card__item {
+.main .block-two .cards .card__item {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 18px;

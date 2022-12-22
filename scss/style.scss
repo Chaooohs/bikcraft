@@ -110,7 +110,8 @@ $transformBtn: translateY(4px);
       }
     }
     .nav-mobile {
-      background-color: #1e1e1e;
+      background-color: #2e2e2e;
+      // background-color: #1e1e1e;
       position: fixed;
       top: 80px;
       left: 0;
@@ -219,37 +220,37 @@ $transformBtn: translateY(4px);
       &__link:active .card__image {
         transform: $transformBtn;
       }
-    }
-    .card {
-      &__image {
-        transition: all 0.1s linear;
-      }
-      &__title {
-        position: relative;
-        font-family: "Poppins";
-        font-weight: 600;
-        font-size: 32px;
-        line-height: 40px;
-        color: #111111;
-
-        box-sizing: border-box;
-        padding-left: 31px;
-        margin-top: 15px;
-
-        &::before {
-          @include yellowRectangle;
+      .card {
+        &__image {
+          transition: all 0.1s linear;
         }
-      }
-      &__item {
-        font-family: "Roboto";
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 24px;
-        color: #595959;
+        &__title {
+          position: relative;
+          font-family: "Poppins";
+          font-weight: 600;
+          font-size: 32px;
+          line-height: 40px;
+          color: #111111;
 
-        box-sizing: border-box;
-        padding-left: 31px;
-        margin-top: 10px;
+          box-sizing: border-box;
+          padding-left: 31px;
+          margin-top: 15px;
+
+          &::before {
+            @include yellowRectangle;
+          }
+        }
+        &__item {
+          font-family: "Roboto";
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 24px;
+          color: #595959;
+
+          box-sizing: border-box;
+          padding-left: 31px;
+          margin-top: 10px;
+        }
       }
     }
   }
