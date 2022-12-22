@@ -23,11 +23,11 @@
   .main .header .nav__list {
     display: none;
   }
-  .main .header .nav__btn {
+  .main .header .nav .burger {
     display: block;
   }
   .main .block-one {
-    padding-top: 8rem;
+    padding-top: 80px;
   }
   .main .block-one__btn {
     font-size: 16px;
@@ -97,14 +97,17 @@
     padding-left: 15px;
   }
   .main .header {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   .main .header .logo {
     font-size: 26px;
   }
   .main .header .nav-mobile {
-    top: 54px;
+    top: 62px;
+  }
+  .main .block-one {
+    padding-top: 62px;
   }
   .main .block-one__left {
     container-type: normal;

@@ -82,7 +82,7 @@ body {
 .main .header .nav__link:hover {
   color: #ffbb00;
 }
-.main .header .nav__btn {
+.main .header .nav .burger {
   position: relative;
   display: none;
   background: none;
@@ -90,7 +90,7 @@ body {
   width: 3.2rem;
   height: 2.4rem;
 }
-.main .header .nav__btn .burger__line {
+.main .header .nav .burger__line {
   position: absolute;
   left: 0;
   width: 100%;
@@ -98,25 +98,24 @@ body {
   background-color: #fff;
   transition: all 0.1s linear;
 }
-.main .header .nav__btn .burger__line-first {
+.main .header .nav .burger__line-first {
   top: 0;
 }
-.main .header .nav__btn .burger__line-second,
-.main .header .nav__btn .burger__line-third {
+.main .header .nav .burger__line-second, .main .header .nav .burger__line-third {
   top: 50%;
   transform: translateY(-50%);
 }
-.main .header .nav__btn .burger__line-fourth {
+.main .header .nav .burger__line-fourth {
   bottom: 0;
 }
-.main .header .nav .nav__btn.active .burger__line-first,
-.main .header .nav .nav__btn.active .burger__line-fourth {
+.main .header .nav .burger.active .burger__line-first,
+.main .header .nav .burger.active .burger__line-fourth {
   opacity: 0;
 }
-.main .header .nav .nav__btn.active .burger__line-second {
+.main .header .nav .burger.active .burger__line-second {
   transform: translateY(-50%) rotate(45deg);
 }
-.main .header .nav .nav__btn.active .burger__line-third {
+.main .header .nav .burger.active .burger__line-third {
   transform: translateY(-50%) rotate(-45deg);
 }
 .main .header .nav-mobile {

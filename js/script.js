@@ -1,7 +1,7 @@
 
 
 const nav = document.querySelector('.nav-mobile');
-const burger = document.querySelector('.nav__btn');
+const burger = document.querySelector('.burger');
 const body = document.querySelector('body');                
 
 burger.onclick = () => {

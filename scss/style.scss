@@ -69,7 +69,7 @@ $gray: #b2b2b2;
         }
       }
 
-      &__btn {
+      .burger {
         position: relative;
         display: none;
         background: none;
@@ -77,7 +77,7 @@ $gray: #b2b2b2;
         width: 3.2rem;
         height: 2.4rem;
 
-        .burger__line {
+        &__line {
           position: absolute;
           left: 0;
           width: 100%;
@@ -85,26 +85,26 @@ $gray: #b2b2b2;
           background-color: $white;
           transition: all 0.1s linear;
         }
-        .burger__line-first {
+        &__line-first {
           top: 0;
         }
-        .burger__line-second,
-        .burger__line-third {
+        &__line-second,
+        &__line-third {
           top: 50%;
           transform: translateY(-50%);
         }
-        .burger__line-fourth {
+        &__line-fourth {
           bottom: 0;
         }
       }
-      .nav__btn.active .burger__line-first,
-      .nav__btn.active .burger__line-fourth {
+      .burger.active .burger__line-first,
+      .burger.active .burger__line-fourth {
         opacity: 0;
       }
-      .nav__btn.active .burger__line-second {
+      .burger.active .burger__line-second {
         transform: translateY(-50%) rotate(45deg);
       }
-      .nav__btn.active .burger__line-third {
+      .burger.active .burger__line-third {
         transform: translateY(-50%) rotate(-45deg);
       }
     }

@@ -20,15 +20,17 @@
       z-index: 4;
       padding-top: 2.5rem;
       padding-bottom: 2.5rem;
-      .nav__list {
-        display: none;
-      }
-      .nav__btn {
-        display: block;
+      .nav {
+        &__list {
+          display: none;
+        }
+        .burger {
+          display: block;
+        }
       }
     }
     .block-one {
-      padding-top: 8rem;
+      padding-top: 80px;
       &__btn {
         font-size: 16px;
         padding: 1.6rem 2.8rem;
@@ -116,16 +118,17 @@
       padding-left: 15px;
     }
     .header {
-      padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
       .logo {
         font-size: 26px;
       }
       .nav-mobile {
-        top: 54px;
+        top: 62px;
       }
     }
     .block-one {
+      padding-top: 62px;
       &__left {
         container-type: normal;
         clear: right;
