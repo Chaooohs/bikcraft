@@ -189,6 +189,10 @@ body {
   box-sizing: border-box;
   padding: 19px 32px 16px 29px;
   margin-top: 3.2rem;
+  transition: all 0.1s linear;
+}
+.main .block-one__btn:active {
+  transform: translateY(2px);
 }
 .main .block-two {
   background: #fff;
@@ -503,6 +507,10 @@ body {
   box-sizing: border-box;
   padding: 16px 28px;
   margin-top: 3.5rem;
+  transition: all 0.1s linear;
+}
+.main .block-six__card-btn:active {
+  transform: translateY(2px);
 }
 .main .footer {
   display: grid;

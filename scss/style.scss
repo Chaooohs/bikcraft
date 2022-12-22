@@ -186,6 +186,11 @@ $gray: #b2b2b2;
       box-sizing: border-box;
       padding: 19px 32px 16px 29px;
       margin-top: 3.2rem;
+
+      transition: all 0.1s linear;
+      &:active {
+        transform: translateY(2px);
+      }
     }
   }
 
@@ -506,6 +511,11 @@ $gray: #b2b2b2;
       box-sizing: border-box;
       padding: 16px 28px;
       margin-top: 3.5rem;
+
+      transition: all 0.1s linear;
+      &:active {
+        transform: translateY(2px);
+      }
     }
   }
 
