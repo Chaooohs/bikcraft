@@ -31,6 +31,12 @@ $gray: #b2b2b2;
   a:hover {
     color: #ffbb00;
   }
+  button {
+    transition: all 0.1s linear;
+    &:active {
+      transform: translateY(2px);
+    }
+  }
 
   .header {
     display: grid;
@@ -214,6 +220,12 @@ $gray: #b2b2b2;
 
       box-sizing: border-box;
       margin-top: 4.4rem;
+      a {
+        transition: all 0.1s linear;
+        &:active {
+          transform: translateY(2px);
+        }
+      }
     }
     .card {
       &__title {
