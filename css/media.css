@@ -114,6 +114,9 @@
   .main .block-one .title {
     font-size: 9cqi;
   }
+  .main .block-two {
+    padding-top: 8rem;
+  }
   .main .block-three__left {
     clear: right;
   }
