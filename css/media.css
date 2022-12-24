@@ -142,4 +142,7 @@
   .main .block-six__card-title {
     flex-direction: column;
   }
+  .main .block-six__card-btn {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=media.css.map */

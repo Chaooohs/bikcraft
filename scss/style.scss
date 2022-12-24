@@ -111,7 +111,7 @@ $transformBtn: translateY(4px);
         .burger__line-third {
           transform: translateY(-50%) rotate(-45deg);
         }
-      } 
+      }
     }
     .nav-mobile {
       background-color: #2e2e2e;
@@ -193,6 +193,11 @@ $transformBtn: translateY(4px);
       transition: all 0.1s linear;
       &:active {
         transform: $transformBtn;
+      }
+    }
+    @media (any-hover: hover) {
+      &__btn:hover {
+        background: #ffc336;
       }
     }
   }
@@ -525,6 +530,11 @@ $transformBtn: translateY(4px);
       transition: all 0.1s linear;
       &:active {
         transform: $transformBtn;
+      }
+    }
+    @media (any-hover: hover) {
+      &__card-btn:hover {
+        background: #3a3a3a;
       }
     }
   }
