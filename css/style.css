@@ -39,7 +39,6 @@ body {
 }
 
 .main {
-  container-type: inline-size;
   max-width: 1600px;
   margin: 0 auto;
 }
@@ -202,7 +201,7 @@ body {
 .main .block-two {
   background: #fff;
   box-sizing: border-box;
-  padding: 9.1cqi 7rem 12cqi;
+  padding: 9.1cqw 7rem 12cqw;
 }
 .main .block-two .title {
   box-sizing: border-box;
@@ -348,7 +347,7 @@ body {
 .main .block-four {
   background: #fff;
   box-sizing: border-box;
-  padding: 11cqi 7rem 10.8rem;
+  padding: 9cqw 7rem 6.7cqw;
 }
 .main .block-four .title {
   box-sizing: border-box;

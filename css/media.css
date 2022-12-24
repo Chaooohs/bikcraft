@@ -125,6 +125,7 @@
   }
   .main .block-four {
     padding-top: 10.8rem;
+    padding-bottom: 10rem;
   }
   .main .block-four__block {
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
