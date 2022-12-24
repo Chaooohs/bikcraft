@@ -23,6 +23,7 @@ $transformBtn: translateY(4px);
 }
 
 .main {
+  container-type: inline-size;
   max-width: 1600px;
   margin: 0 auto;
 
@@ -205,7 +206,7 @@ $transformBtn: translateY(4px);
   .block-two {
     background: $white;
     box-sizing: border-box;
-    padding: 14.6rem 7rem 19.2rem;
+    padding: 9.1cqi 7rem 12cqi;
 
     .title {
       @include titleBlack;
@@ -354,7 +355,7 @@ $transformBtn: translateY(4px);
   .block-four {
     background: $white;
     box-sizing: border-box;
-    padding: 17.8rem 7rem 10.8rem;
+    padding: 11cqi 7rem 10.8rem;
 
     .title {
       @include titleBlack;
